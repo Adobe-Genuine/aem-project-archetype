@@ -16,7 +16,7 @@
 
 name: Test dispatcher SDK update
 
-# Only run on a push to develop branch or manually
+## Only run on a push to develop branch or manually
 on:
   push:
     branches: [ master, develop ]
