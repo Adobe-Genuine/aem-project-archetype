@@ -34,7 +34,7 @@ jobs:
     outputs:
       commit: ${{ steps.getCommit.outputs.commit }}
     steps:
-      # Checkout this project into a sub folder
+      ## Checkout this project into a sub folder
       - uses: actions/checkout@v2
         with:
           path: archetype
